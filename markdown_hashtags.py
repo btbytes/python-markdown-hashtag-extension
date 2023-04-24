@@ -7,6 +7,9 @@ __author__ = "kongaloosh"
 
 class HashtagExtension(Extension):
 
+    def __init__(self, *args, **kwargs):
+        super(HashtagExtension, self).__init__(*args, **kwargs)
+
     def extendMarkdown(self, md, md_globals):
         """ Add FencedBlockPreprocessor to the Markdown instance. """
         md.registerExtension(self)
