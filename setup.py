@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="MarkdownHashtags",
-    version=0.1,
+    version=0.2,
     packages=['markdown_hashtags'],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
     long_description=open('README.md').read(),

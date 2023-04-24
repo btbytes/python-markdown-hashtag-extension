@@ -27,7 +27,7 @@ class HashtagPreprocessor(Preprocessor):
 
     def run(self, lines):
         """ Match and store Fenced Code Blocks in the HtmlStash. """
-        HASHTAG_WRAP = '''<a href="/t/{0}"> #{0}</a>'''
+        HASHTAG_WRAP = '''<a href="/tags.html#{0}"> #{0}</a>'''
         text = "\n".join(lines)
         while True:
             hashtag = ''
