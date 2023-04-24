@@ -6,5 +6,5 @@ setup(
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
     long_description=open('README.md').read(),
     install_requires=open('requirements.txt').read().split('\n'),
-    py_modules=["markdown_hashtag"],
+    py_modules=["markdown_hashtags"],
 )
