@@ -1,3 +1,3 @@
-from markdown_hashtag_extension import HashtagExtension
-from markdown_hashtag_extension import HashtagPreprocessor
-from markdown_hashtag_extension import makeExtension
+from .markdown_hashtag_extension import HashtagExtension
+from .markdown_hashtag_extension import HashtagPreprocessor
+from .markdown_hashtag_extension import makeExtension
