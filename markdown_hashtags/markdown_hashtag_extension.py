@@ -1,4 +1,4 @@
-from markdown import Extension
+from markdown.extensions import Extension
 from markdown.preprocessors import Preprocessor
 import re
 
