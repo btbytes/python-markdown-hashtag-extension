@@ -10,7 +10,7 @@ class HashtagExtension(Extension):
     def __init__(self, *args, **kwargs):
         super(HashtagExtension, self).__init__(*args, **kwargs)
 
-    def extendMarkdown(self, md, md_globals):
+    def extendMarkdown(self, md):
         """ Add FencedBlockPreprocessor to the Markdown instance. """
         md.registerExtension(self)
 
