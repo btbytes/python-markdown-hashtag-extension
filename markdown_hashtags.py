@@ -12,11 +12,10 @@ class HashtagExtension(Extension):
 
     def extendMarkdown(self, md):
         md.registerExtension(self)
-
         md.preprocessors.register(
-            'hashtag',
             HashtagPreprocessor(md),
-            ">normalize_whitespace")
+            "hashtag",
+            24)
 
 
 class HashtagPreprocessor(Preprocessor):
